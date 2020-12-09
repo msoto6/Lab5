@@ -1,0 +1,70 @@
+.background {
+	background-image: url("images/milkyway.jpg");
+	background-size: cover;
+}
+body {
+	color: white;
+	font-family: 'Montserrat';
+	
+}
+h1 {
+	text-align: center;
+	font-family: 'Montserrat';
+	color: white;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#planet {
+	font-family: 'Montserrat';
+	border-collapse: collapse;
+	width: 55%;
+}
+
+#planet td, #planet th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#planet tr:hover {
+	background-color: #9D9D9D;
+}
+
+#planet th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	color: white;
+}
+
+.venus {
+	width: 10%;
+	height: auto;
+	margin-left: 33%;
+	position: relative;
+}
+
+.mars {
+	width: 8%;
+	height: auto;
+	margin-left: 2%;
+	position: relative;
+}
+.jupiter {
+	width: 13%;
+	height: auto;
+	position: relative;
+}
+
+.uranus {
+	width: 12%;
+	height: auto;
+	position: relative;
+}
+
+img:hover {
+	transform: scale(1.5);
+}
